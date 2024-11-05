@@ -146,19 +146,19 @@ export default function TabLayout() {
                       </IgrButton>
                     </div>
                     <div slot="end" key={uuid()}>
-                      <IgrIconButton variant="flat" className={classes("icon-button")} key={uuid()}>
+                      <IgrIconButton variant="flat" key={uuid()}>
                         <span className={classes("material-icons")} key={uuid()}>
                           <span key={uuid()}>favorite</span>
                         </span>
                         <IgrRipple key={uuid()}></IgrRipple>
                       </IgrIconButton>
-                      <IgrIconButton variant="flat" className={classes("icon-button")} key={uuid()}>
+                      <IgrIconButton variant="flat" key={uuid()}>
                         <span className={classes("material-icons")} key={uuid()}>
                           <span key={uuid()}>bookmark</span>
                         </span>
                         <IgrRipple key={uuid()}></IgrRipple>
                       </IgrIconButton>
-                      <IgrIconButton variant="flat" className={classes("icon-button")} key={uuid()}>
+                      <IgrIconButton variant="flat" key={uuid()}>
                         <span className={classes("material-icons")} key={uuid()}>
                           <span key={uuid()}>share</span>
                         </span>
@@ -337,7 +337,7 @@ export default function TabLayout() {
                 <IgrColumn field="address.phone" dataType="string" header="address phone" sortable="true" selectable="false"></IgrColumn>
               </IgrGrid>
             </IgrTabPanel>
-            <IgrTab selected="true" key={uuid()}>
+            <IgrTab key={uuid()}>
               <span className={classes("material-icons")} key={uuid()}>
                 <span key={uuid()}>grid_on</span>
               </span>
@@ -392,7 +392,7 @@ export default function TabLayout() {
                 <IgrColumn field="address.phone" dataType="string" header="address phone" sortable="true" selectable="false"></IgrColumn>
               </IgrGrid>
             </IgrTabPanel>
-            <IgrTab key={uuid()}>
+            <IgrTab selected="true" key={uuid()}>
               <span className={classes("material-icons")} key={uuid()}>
                 <span key={uuid()}>arrow_downward</span>
               </span>

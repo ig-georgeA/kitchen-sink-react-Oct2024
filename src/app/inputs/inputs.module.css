@@ -196,7 +196,6 @@
   max-height: max-content;
 }
 .button {
-  --ig-size: var(--ig-size-small);
   height: max-content;
   flex-shrink: 0;
 }
@@ -265,13 +264,10 @@
 .icon-button {
   --ig-size: var(--ig-size-medium);
 }
-.icon-button_1 {
-  --ig-size: var(--ig-size-small);
-}
-.icon-button_2::part(base) {
+.icon-button_1::part(base) {
   background-color: hsla(var(--ig-gray-200));
 }
-.icon-button_3::part(base) {
+.icon-button_2::part(base) {
   color: hsla(var(--ig-surface-500));
   background-color: hsla(var(--ig-secondary-500));
 }

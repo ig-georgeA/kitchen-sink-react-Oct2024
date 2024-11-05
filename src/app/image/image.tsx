@@ -43,19 +43,19 @@ export default function Image() {
                 </IgrButton>
               </div>
               <div slot="end" key={uuid()}>
-                <IgrIconButton variant="flat" className={classes("icon-button")} key={uuid()}>
+                <IgrIconButton variant="flat" key={uuid()}>
                   <span className={classes("material-icons")} key={uuid()}>
                     <span key={uuid()}>favorite</span>
                   </span>
                   <IgrRipple key={uuid()}></IgrRipple>
                 </IgrIconButton>
-                <IgrIconButton variant="flat" className={classes("icon-button")} key={uuid()}>
+                <IgrIconButton variant="flat" key={uuid()}>
                   <span className={classes("material-icons")} key={uuid()}>
                     <span key={uuid()}>bookmark</span>
                   </span>
                   <IgrRipple key={uuid()}></IgrRipple>
                 </IgrIconButton>
-                <IgrIconButton variant="flat" className={classes("icon-button")} key={uuid()}>
+                <IgrIconButton variant="flat" key={uuid()}>
                   <span className={classes("material-icons")} key={uuid()}>
                     <span key={uuid()}>share</span>
                   </span>
