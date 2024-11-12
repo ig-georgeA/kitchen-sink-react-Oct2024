@@ -113,9 +113,6 @@
   min-width: 50px;
   min-height: 40px;
 }
-.icon-button {
-  --ig-size: var(--ig-size-small);
-}
 .tab-item-content_3 {
   justify-content: flex-start;
   align-items: stretch;

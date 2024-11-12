@@ -187,7 +187,7 @@ export default function Inputs() {
           <IgrDateTimeInput value={date} label="Date editor" required outlined="true" className={classes("date-time-input")}></IgrDateTimeInput>
           <IgrDateTimeInput value={date} label="Time editor" required outlined="true" className={classes("date-time-input")}></IgrDateTimeInput>
           <div className={classes("row-layout group_7")}>
-            <IgrButton clicked={() => navigate(`/lists-data`)} className={classes("button")}>
+            <IgrButton clicked={() => navigate(`/lists-data`)} className={classes("button button_3")}>
               <span className={classes("material-icons")} key={uuid()}>
                 <span key={uuid()}>star</span>
               </span>
@@ -215,13 +215,13 @@ export default function Inputs() {
               <span key={uuid()}>Button</span>
               <IgrRipple key={uuid()}></IgrRipple>
             </IgrButton>
-            <IgrIconButton variant="flat" className={classes("icon-button icon-button_2")}>
+            <IgrIconButton variant="flat" className={classes("icon-button icon-button_1")}>
               <span className={classes("material-icons")} key={uuid()}>
                 <span key={uuid()}>edit_calendar</span>
               </span>
               <IgrRipple key={uuid()}></IgrRipple>
             </IgrIconButton>
-            <IgrIconButton variant="flat" className={classes("icon-button icon-button_3")}>
+            <IgrIconButton variant="flat" className={classes("icon-button icon-button_2")}>
               <span className={classes("material-icons icon_6")} key={uuid()}>
                 <span key={uuid()}>edit_calendar</span>
               </span>
@@ -235,7 +235,7 @@ export default function Inputs() {
             </IgrButton>
             <div className={classes("row-layout group_8")}>
               <div className={classes("row-layout group_9")}>
-                <IgrIconButton variant="flat" className={classes("icon-button_1")}>
+                <IgrIconButton variant="flat">
                   <span className={classes("material-icons")} key={uuid()}>
                     <span key={uuid()}>email</span>
                   </span>
@@ -276,7 +276,7 @@ export default function Inputs() {
                 <span key={uuid()}>Denied</span>
               </IgrBadge>
               <div className={classes("row-layout group_9")}>
-                <IgrIconButton variant="flat" className={classes("icon-button_1")}>
+                <IgrIconButton variant="flat">
                   <span className={classes("material-icons")} key={uuid()}>
                     <span key={uuid()}>email</span>
                   </span>

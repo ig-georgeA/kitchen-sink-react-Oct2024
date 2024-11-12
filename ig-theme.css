@@ -3,9 +3,9 @@
   --ig-primary-h: 216deg;
   --ig-primary-s: 56%;
   --ig-primary-l: 39%;
-  --ig-secondary-h: 216deg;
-  --ig-secondary-s: 56%;
-  --ig-secondary-l: 39%;
+  --ig-secondary-h: 93deg;
+  --ig-secondary-s: 87%;
+  --ig-secondary-l: 32%;
   --ig-error-h: 0deg;
   --ig-error-s: 100%;
   --ig-error-l: 33%;
@@ -23,11 +23,8 @@
   --ig-primary-A100-contrast: white;
   --ig-primary-A200-contrast: white;
   --ig-primary-A400-contrast: white;
-  --ig-secondary-300-contrast: white;
-  --ig-secondary-400-contrast: white;
-  --ig-secondary-500-contrast: white;
-  --ig-secondary-A100-contrast: white;
-  --ig-secondary-A200-contrast: white;
+  --ig-secondary-600-contrast: black;
+  --ig-secondary-A400-contrast: black;
   --ig-error-200-contrast: white;
   --ig-error-300-contrast: white;
   --ig-error-400-contrast: white;

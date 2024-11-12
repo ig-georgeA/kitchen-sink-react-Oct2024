@@ -128,7 +128,6 @@
   min-height: 40px;
 }
 .icon-button {
-  --ig-size: var(--ig-size-small);
   margin: 0.0px;
   padding: 0.0px;
 }

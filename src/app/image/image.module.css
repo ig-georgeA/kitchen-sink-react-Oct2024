@@ -105,9 +105,6 @@
   min-width: 50px;
   min-height: 40px;
 }
-.icon-button {
-  --ig-size: var(--ig-size-small);
-}
 .button {
   --ig-size: var(--ig-size-medium);
   height: max-content;
