@@ -49,9 +49,6 @@
 .nav-drawer::part(main) {
   width: 320px;
 }
-.icon-button {
-  --ig-size: var(--ig-size-small);
-}
 .h6 {
   margin: 0;
   flex-shrink: 0;

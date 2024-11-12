@@ -21,7 +21,7 @@ export default function App() {
       <div className={classes("column-layout main-navigation-container")}>
         <IgrNavbar className={classes("navbar")}>
           <div style={{display: 'contents'}} slot="start" key={uuid()}>
-            <IgrIconButton variant="flat" clicked={() => navDrawer?.current?.toggle()} className={classes("icon-button")}>
+            <IgrIconButton variant="flat" clicked={() => navDrawer?.current?.toggle()}>
               <span className={classes("material-icons")} key={uuid()}>
                 <span key={uuid()}>menu</span>
               </span>
@@ -34,7 +34,7 @@ export default function App() {
             </h6>
           </div>
           <div style={{display: 'contents'}} slot="end" key={uuid()}>
-            <IgrIconButton variant="flat" className={classes("icon-button")}>
+            <IgrIconButton variant="flat">
               <span className={classes("material-icons")} key={uuid()}>
                 <span key={uuid()}>addchart</span>
               </span>
@@ -42,7 +42,7 @@ export default function App() {
             </IgrIconButton>
           </div>
           <div style={{display: 'contents'}} slot="end" key={uuid()}>
-            <IgrIconButton variant="flat" className={classes("icon-button")}>
+            <IgrIconButton variant="flat">
               <span className={classes("material-icons")} key={uuid()}>
                 <span key={uuid()}>search</span>
               </span>
@@ -50,7 +50,7 @@ export default function App() {
             </IgrIconButton>
           </div>
           <div style={{display: 'contents'}} slot="end" key={uuid()}>
-            <IgrIconButton variant="flat" className={classes("icon-button")}>
+            <IgrIconButton variant="flat">
               <span className={classes("material-icons")} key={uuid()}>
                 <span key={uuid()}>favorite</span>
               </span>
@@ -58,7 +58,7 @@ export default function App() {
             </IgrIconButton>
           </div>
           <div style={{display: 'contents'}} slot="end" key={uuid()}>
-            <IgrIconButton variant="flat" className={classes("icon-button")}>
+            <IgrIconButton variant="flat">
               <span className={classes("material-icons")} key={uuid()}>
                 <span key={uuid()}>more_vert</span>
               </span>

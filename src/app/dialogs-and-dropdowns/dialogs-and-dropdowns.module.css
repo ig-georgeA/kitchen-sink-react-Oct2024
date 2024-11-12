@@ -203,9 +203,6 @@
   align-self: stretch;
   flex-shrink: 0;
 }
-.icon-button {
-  --ig-size: var(--ig-size-small);
-}
 .icon-button::part(base) {
   background-color: hsla(var(--ig-gray-200));
 }
