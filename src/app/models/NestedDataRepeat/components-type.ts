@@ -1,10 +1,10 @@
 import { PropertiesType } from './properties-type';
-import { PropertiesPanelType } from './properties-panel-type';
-import { AllowedChildrenType } from './allowed-children-type';
-import { ZonesType } from './zones-type';
 import { LayoutRulesType } from './layout-rules-type';
-import { ComponentDependenciesType } from './component-dependencies-type';
+import { PropertiesPanelType } from './properties-panel-type';
 import { TemplatesType } from './templates-type';
+import { ComponentDependenciesType } from './component-dependencies-type';
+import { ZonesType } from './zones-type';
+import { AllowedChildrenType } from './allowed-children-type';
 
 export interface ComponentsType {
   id: string;
